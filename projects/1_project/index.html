@@ -139,27 +139,36 @@
   <div class="post distill">
 
     <d-title>
-      <h1>handwritten recognition</h1>
-      <p>a simple pre-train model embedded into browser</p>
+      <h1>Handwritten recognition</h1>
+      <p>This pet project, I will demonstrate for you guys a really exciting example of using Neural Network to predict
+      handwritten digits. You could draw on the canvas displayed on your screen and inference with the pre-train model.
+      We use \(Tensorflowjs\) to convert Python pre-train model to tfjs format. Let's first start with the theoretical of the net.</p>
     </d-title>
 
     <d-byline></d-byline>
 
     <d-article>
-      <h2 id="what-are-nerons">What are neurons?</h2>
+      <h2 id="what-are-neurons">What are neurons?</h2>
 
-<p>As the name suggest, neurons network are inspired by the brain, but let's break that down.
-What are neurons and in what sense are they linked together? Neuron -> a thing that holds a number.
-Specifically, a numer between 0 and 1, and it's really not more than that. For example, the network starts 
-with a bunch of neurons corresponding to each other of 28 times 28 pixels of the input image.
+<p>Neurons network are inspired by the brain, what are neurons and in what sense are they linked together?
+Neuron is a thing that holds a number. Specifically, a number between 0 and 1, and it's really not more than that.
+</p>
+        <img src="https://cdn-images-1.medium.com/max/600/0*Vk65gAhCQF1lmFBX.png"
+             width="276" height="215">
+<p>
+For example, the network starts with a bunch of neurons corresponding to each other of \(28\times 28 = 784\) pixels of the input image.
+Which is \(784\) neurons in total, each of those holds a number that represents the gray scale value of corresponding pixel.
+ranging from 0 for while pixels and 1 for black pixels.
 </p>
 
-<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.
-Here is an example:</p>
+        <img src="https://ml4a.github.io/images/figures/mnist_1layer.png"
+             width="519" height="278">
 
-\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
-
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html" target="\_blank">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php" target="\_blank">on par with KaTeX</a>.</p>
+<p>This number inside the neuron is called its \(activation\). All the \(784\) neurons make up the first layer of neural network.
+The last layer has ten neurons each representing one of the digits. The activation in these neurons again some number that between 0 and 1.
+Represents how much the system thinks that a given image correspond with a given digit. There's also a couple of layers in between called
+the hidden layers, inside these layer, we will answer the question how on earth is process of recognizing digits is going to be handle.
+</p>
 
 <hr />
 
