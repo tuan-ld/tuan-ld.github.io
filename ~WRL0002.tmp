@@ -23,10 +23,10 @@ w\:* {behavior:url(#default#VML);}
 <link rel=colorSchemeMapping href="index_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:Zoom>120</w:Zoom>
+  <w:View>Print</w:View>
+  <w:Zoom>110</w:Zoom>
   <w:DisplayBackgroundShape/>
   <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -662,9 +662,9 @@ w\:* {behavior:url(#default#VML);}
 @font-face
 	{font-family:"\@Malgun Gothic";
 	mso-font-charset:129;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-1879048145 701988091 18 0 524289 0;}
+	mso-generic-font-family:auto;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -681,8 +681,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-priority:99;
 	color:#0563C1;
 	text-decoration:underline;
 	text-underline:single;}
@@ -785,9 +784,6 @@ p.msopapdefault, li.msopapdefault, div.msopapdefault
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -842,69 +838,10 @@ style='font-size:22.0pt;line-height:105%;font-family:"Times New Roman",serif'>Le
 <span class=SpellE>Dinh</span> Tuan</span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-family:"Times New Roman",serif;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
- id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
- path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_6" o:spid="_x0000_i1030" type="#_x0000_t75"
- style='width:199.5pt;height:201.75pt;visibility:visible' o:gfxdata="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
-8wYAAAAA
-">
- <v:imagedata src="index_files/image001.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img width=266 height=269
-src="index_files/image002.gif" v:shapes="Picture_x0020_6"><![endif]></span></p>
+style='font-family:"Times New Roman",serif;mso-no-proof:yes'><img width=216
+height=220 id="_x0000_i1030" src="index_files/image001.png"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-family:"Times New Roman",serif'>MSc Student </span></p>
@@ -920,8 +857,8 @@ National University</span></a></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-family:"Times New Roman",serif'><a
-href="https://docs.google.com/viewer?url=https://github.com/tuan-ld/tuan-ld.github.io/raw/main/resume/Tuan-Le-Dinh-resume.pdf">Resume</a></span><span
-class=MsoHyperlink><o:p></o:p></span></p>
+href="https://docs.google.com/viewer?url=https://github.com/tuan-ld/tuan-ld.github.io/raw/main/resume/Tuan-Le-Dinh-resume.pdf">Resume<span
+style='font-family:"Calibri",sans-serif'><o:p></o:p></span></a></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><a
 href="https://scholar.google.com/citations?user=0hrdfgEAAAAJ&amp;hl=en&amp;oi=sra"><span
@@ -938,9 +875,7 @@ class=SpellE><span style='font-family:"Times New Roman",serif'>Github</span></sp
 <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
 style='font-family:"Times New Roman",serif'>tuanld.nbm</span></span><span
 style='font-family:"Times New Roman",serif'> at <span class=SpellE>gmail</span>
-dot com<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+dot com</span></p>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 align=left
  style='mso-cellspacing:0mm;mso-yfti-tbllook:1184;mso-table-lspace:2.25pt;
@@ -952,243 +887,216 @@ dot com<o:p></o:p></span></p>
  </tr>
  <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
   <td style='padding:0mm 0mm 0mm 0mm'></td>
-  <td style='padding:0mm 0mm 0mm 0mm'></td>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='mso-element:frame;mso-element-frame-hspace:2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-height-rule:exactly'><span style='font-size:12.0pt;line-height:
+  105%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-no-proof:yes'><img border=0 width=694 height=4 id="_x0000_i1029"
+  src="index_files/image002.png"></span><span style='font-size:12.0pt;
+  line-height:105%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman"'><o:p></o:p></span></p>
+  </td>
  </tr>
 </table>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='font-size:12.0pt;line-height:105%;
-font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-mso-no-proof:yes'><img border=0 width=1078 height=6 id="_x0000_i1029"
-src="index_files/image002.png"></span></p>
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><b><span style='font-size:14.0pt;line-height:105%;
-font-family:"Times New Roman",serif'>Self-introduction</span></b></p>
-
-<p class=MsoNormal align=center style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt;text-align:center'><span
-style='font-family:"Times New Roman",serif'>Hello, my name is Le <span
-class=SpellE>Dinh</span> Tuan (you can call me Tuan), I was born and grown up
-in Vietnam. I received my bachelor from Vietnam National University (College of
-Engineering) in Computer Science. After graduated, I moved to Japan and worked
-as a software engineer. In Japan, I worked as a programmer for two years, then I
-decided to pursue my master degree in Artificial Intelligence at <span
-class=SpellE>Pukyong</span> National University.</span><o:p></o:p></p>
-
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='left:-3px;position:relative;top:20px;
-z-index:251661312'><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-0mm;margin-left:184.3pt'><span style='font-size:12.0pt;line-height:105%;
-font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-mso-no-proof:yes'><img border=0 width=1078 height=6 id="_x0000_i1028"
-src="index_files/image002.png"></span><span style='font-size:12.0pt;line-height:
-105%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><br
-clear=all style='mso-special-character:line-break'>
+<p class=MsoNormal style='margin-bottom:0mm'><span style='font-size:12.0pt;
+line-height:105%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'><br clear=all style='mso-special-character:line-break'>
 <o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><b><span style='font-size:14.0pt;line-height:105%;
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:105%;
+font-family:"Times New Roman",serif'>Self-introduction</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Hello, my
+name is Le <span class=SpellE>Dinh</span> Tuan (you can call me Tuan), I was
+born and grown up in Vietnam. I received my bachelor from Vietnam National University
+(College of Engineering) in Computer Science. After graduated, I moved to Japan
+and worked as a software engineer. In Japan, I worked as a programmer for two
+years, then I decided to pursue my master degree in Artificial Intelligence at <span
+class=SpellE>Pukyong</span> National University. </span><o:p></o:p></p>
+
+<p class=MsoNormal><span style='left:-3px;position:relative;top:20px;
+z-index:251661312'><span style='mso-no-proof:yes'><img border=0 width=694
+height=4 id="_x0000_i1028" src="index_files/image002.png"></span><span
+style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0mm'><span style='font-size:12.0pt;
+line-height:105%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'><br clear=all style='mso-special-character:line-break'>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:105%;
 font-family:"Times New Roman",serif'>Research interest</span></b></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='font-family:"Times New Roman",serif'>During
-my master's course at <span class=SpellE>Pukyong</span> National University, I
-found my curiosity about Deep Learning applied to Medical and Biomedical Image
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>During my
+master's course at <span class=SpellE>Pukyong</span> National University, I found
+my curiosity about Deep Learning applied to Medical and Biomedical Image
 Analysis. My research job is to train DL models and modify the architecture of
 these neural nets so that they can work best for medical and biomedical images.
 Images analysis tasks included classification, semantic segmentation, instance
 segmentation, etc.</span><o:p></o:p></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='left:-1px;position:relative;top:24px;
-z-index:251663360'><b><span style='font-size:14.0pt;line-height:105%;
-font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+<p class=MsoNormal><span style='left:-1px;position:relative;top:24px;
+z-index:251663360'><span style='mso-no-proof:yes'><img border=0 width=694
+height=4 id="_x0000_i1027" src="index_files/image002.png"></span><b><span
+style='font-size:14.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-0mm;margin-left:184.3pt'><span style='font-size:12.0pt;line-height:105%;
-font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-mso-no-proof:yes'><img border=0 width=1078 height=6 id="_x0000_i1027"
-src="index_files/image002.png"></span><span style='font-size:12.0pt;line-height:
-105%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><br
-clear=all style='mso-special-character:line-break'>
+<p class=MsoNormal style='margin-bottom:0mm'><span style='font-size:12.0pt;
+line-height:105%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'><br clear=all style='mso-special-character:line-break'>
 <o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><b><span style='font-size:14.0pt;line-height:105%;
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:105%;
 font-family:"Times New Roman",serif'>Favorite Courses</span></b></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='font-family:"Times New Roman",serif'>I
-enjoyed watching and taking notes for online courses and I highly recommend you
-guys take a look at it. For me, these courses have helped me build up my
-background for an AI research career so much.</span></p>
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>I enjoyed
+watching and taking notes for online courses and I highly recommend you guys
+take a look at it. For me, these courses have helped me build up my background
+for an AI research career so much.</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:Symbol'>·</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><a href="http://www.cs.cmu.edu/~tom/10701_sp11/"><span style='font-family:
 "Times New Roman",serif'>Machine Learning course</span></a><span
 style='font-family:"Times New Roman",serif'> (Prof Tom Mitchell, Carnegie
 Mellon University, includes video lectures, online slides, 2011)</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:Symbol'>·</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><a
 href="https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/"><span
-style='font-family:"Times New Roman",serif'>Matrix methods in Data Analysis,
-Signal Processing, and Machine Learning</span></a><span style='font-family:
-"Times New Roman",serif'> (Prof. Gilbert Strang MIT)</span></p>
+style='font-family:"Times New Roman",serif'>Matrix methods in Data Analysis, Signal
+Processing, and Machine Learning</span></a><span style='font-family:"Times New Roman",serif'>
+(Prof. Gilbert Strang MIT)</span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='font-family:"Times New Roman",serif'>My
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>My
 strategy to get the most from the online courses is to have a clear learning
 schedule and be persistent with my plan, take notes as much as possible, and
 try not to skip the challenged and excited homework.</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:Symbol'>·</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span style='font-family:"Times New Roman",serif'>My notes, and homework
 solutions for Machine Learning courses</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:Symbol'>·</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span style='font-family:"Times New Roman",serif'>My notes and homework
 solutions for Matrix methods in Data Analysis, Signal Processing, and Machine
 Learning</span><o:p></o:p></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='left:-3px;position:relative;top:17px;
-z-index:251665408'><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+<p class=MsoNormal><span style='left:-3px;position:relative;top:17px;
+z-index:251665408'><span style='mso-no-proof:yes'><img border=0 width=694
+height=4 id="_x0000_i1026" src="index_files/image002.png"></span><span
+style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-0mm;margin-left:184.3pt'><span style='font-size:12.0pt;line-height:105%;
-font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-mso-no-proof:yes'><img border=0 width=1078 height=6 id="_x0000_i1026"
-src="index_files/image002.png"></span><span style='font-size:12.0pt;line-height:
-105%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><br
-clear=all style='mso-special-character:line-break'>
+<p class=MsoNormal style='margin-bottom:0mm'><span style='font-size:12.0pt;
+line-height:105%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'><br clear=all style='mso-special-character:line-break'>
 <o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='font-family:"Times New Roman",serif'>&nbsp;</span><b><span
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span><b><span
 style='font-size:14.0pt;line-height:105%;font-family:"Times New Roman",serif'>Favorite
 Books</span></b></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='font-family:"Times New Roman",serif'>Besides
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Besides
 reading textbooks about math and science, I also enjoy reading books from other
 fields. Some of the most influenced authors which inspired me a lot include: </span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:Symbol'>·</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><a href="https://en.wikipedia.org/wiki/Jared_Diamond"><span
 style='font-family:"Times New Roman",serif'>Jared Diamond</span></a><span
 style='font-family:"Times New Roman",serif'> (Guns, Germs, and Steel, The World
-Until Yesterday, <span class=GramE>Why</span> sex is fun, <span class=SpellE>etc</span>)</span></p>
+Until Yesterday, Why sex is fun, <span class=SpellE>etc</span>)</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:Symbol'>·</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><a href="https://en.wikipedia.org/wiki/Walter_Isaacson"><span
 style='font-family:"Times New Roman",serif'>Walter Isaacson</span></a><span
 style='font-family:"Times New Roman",serif'> (The Innovators, Einstein: His
 Life and Universe, Steve Jobs, <span class=SpellE>etc</span>)</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:Symbol'>·</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><a href="https://en.wikipedia.org/wiki/Malcolm_Gladwell"><span
 style='font-family:"Times New Roman",serif'>Malcolm Gladwell</span></a><span
 style='font-family:"Times New Roman",serif'> (Outliers: The Story of Success,
 The Tipping Point, Blink, <span class=SpellE>etc</span>)</span><o:p></o:p></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='left:-2px;position:relative;top:20px;
-z-index:251667456'><b><span style='font-size:14.0pt;line-height:105%;
-font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+<p class=MsoNormal><span style='left:-2px;position:relative;top:20px;
+z-index:251667456'><span style='mso-no-proof:yes'><img border=0 width=694
+height=4 id="_x0000_i1025" src="index_files/image002.png"></span><b><span
+style='font-size:14.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-0mm;margin-left:184.3pt'><span style='font-size:12.0pt;line-height:105%;
-font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-mso-no-proof:yes'><img border=0 width=1078 height=6 id="_x0000_i1025"
-src="index_files/image002.png"></span><span style='font-size:12.0pt;line-height:
-105%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><br
-clear=all style='mso-special-character:line-break'>
+<p class=MsoNormal style='margin-bottom:0mm'><span style='font-size:12.0pt;
+line-height:105%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'><br clear=all style='mso-special-character:line-break'>
 <o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><b><span style='font-size:14.0pt;line-height:105%;
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:105%;
 font-family:"Times New Roman",serif'>Publications</span></b></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-size:12.0pt;
-line-height:105%;font-family:Symbol'>·</span><span style='font-size:7.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-size:
+12.0pt;line-height:105%;font-family:Symbol'>·</span><span style='font-size:
+7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><b><span style='font-size:12.0pt;line-height:105%;font-family:"Times New Roman",serif'>Journal</span></b></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:219.75pt'><a name="_Hlk106903909"></a><a
-name="_Hlk106903978"></a><span style='mso-bookmark:_Hlk106903909'><span
-style='font-family:"Courier New"'>o</span></span><span style='mso-bookmark:
-_Hlk106903909'><span style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
-</span></span><span style='mso-bookmark:_Hlk106903909'><span style='font-family:
-"Times New Roman",serif'>Le <span class=SpellE>Dinh</span>, Tuan, et al.
-&quot;COVID-19 Chest X-ray Classification and Severity Assessment Using
-Convolutional and Transformer Neural Networks.&quot; Applied Sciences 12.10
-(2022): 4861.</span></span></p>
+<p class=MsoListParagraph style='margin-left:72.0pt;text-indent:-18.0pt'><a
+name="_Hlk106903909"></a><a name="_Hlk106903978"></a><span style='mso-bookmark:
+_Hlk106903909'><span style='font-family:"Courier New"'>o</span></span><span
+style='mso-bookmark:_Hlk106903909'><span style='font-size:7.0pt;line-height:
+105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span></span><span
+style='mso-bookmark:_Hlk106903909'><span style='font-family:"Times New Roman",serif'>Le
+<span class=SpellE>Dinh</span>, Tuan, et al. &quot;COVID-19 Chest X-ray
+Classification and Severity Assessment Using Convolutional and Transformer
+Neural Networks.&quot; Applied Sciences 12.10 (2022): 4861.</span></span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:219.75pt'><span style='font-family:"Courier New"'>o</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
-</span><span class=SpellE><span style='font-family:"Times New Roman",serif'>Dinh</span></span><span
+<p class=MsoListParagraph style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span><span
+class=SpellE><span style='font-family:"Times New Roman",serif'>Dinh</span></span><span
 style='font-family:"Times New Roman",serif'>, Tuan Le, et al. “Breast Tumor
 Cell Nuclei Segmentation in Histopathology Images Using <span class=SpellE>EfficientUnet</span>++
-and Multi-Organ Transfer Learning.” Journal of Korea Multimedia <span
-class=GramE>Society ,</span> vol. 24, no. 8, Korea Multimedia Society, Aug.
-2021, pp. 1000–1011, doi:10.9717/KMMS.2021.24.8.1000.</span></p>
+and Multi-Organ Transfer Learning.” Journal of Korea Multimedia Society , vol.
+24, no. 8, Korea Multimedia Society, Aug. 2021, pp. 1000–1011, doi:10.9717/KMMS.2021.24.8.1000.</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-size:12.0pt;
-line-height:105%;font-family:Symbol'>·</span><span style='font-size:7.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-size:
+12.0pt;line-height:105%;font-family:Symbol'>·</span><span style='font-size:
+7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><b><span style='font-size:12.0pt;line-height:105%;font-family:"Times New Roman",serif'>Conference</span></b></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:219.75pt'><a name="_Hlk106903998"><span
-style='font-family:"Courier New"'>o</span></a><span style='mso-bookmark:_Hlk106903998'><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
-</span></span><span style='mso-bookmark:_Hlk106903998'><span style='font-family:
-"Times New Roman",serif'>T. L. <span class=SpellE>Dinh</span>, S. -H. Lee, S.
--G. Kwon and K. -R. Kwon, &quot;Cell Nuclei Segmentation in <span class=SpellE>Cryonuseg</span>
-dataset using Nested <span class=SpellE>Unet</span> with <span class=SpellE>EfficientNet</span>
+<p class=MsoListParagraph style='margin-left:72.0pt;text-indent:-18.0pt'><a
+name="_Hlk106903998"><span style='font-family:"Courier New"'>o</span></a><span
+style='mso-bookmark:_Hlk106903998'><span style='font-size:7.0pt;line-height:
+105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span></span><span
+style='mso-bookmark:_Hlk106903998'><span style='font-family:"Times New Roman",serif'>T.
+L. <span class=SpellE>Dinh</span>, S. -H. Lee, S. -G. Kwon and K. -R. Kwon,
+&quot;Cell Nuclei Segmentation in <span class=SpellE>Cryonuseg</span> dataset
+using Nested <span class=SpellE>Unet</span> with <span class=SpellE>EfficientNet</span>
 Encoder,&quot; 2022 International Conference on Electronics, Information, and
 Communication (ICEIC), 2022, pp. 1-4, <span class=SpellE>doi</span>:
 10.1109/ICEIC54506.2022.9748537.</span></span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:219.75pt'><span style='font-family:"Courier New"'>o</span><span
-style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
-</span><span style='font-family:"Times New Roman",serif'>Tuan Le <span
-class=SpellE>Dinh</span>, <span class=SpellE>Seong-Geun</span> Kwon, Suk-Hwan
-Lee, Ki-<span class=SpellE>Ryong</span> Kwon. (2021). A Study on Vision
-Transformer for Medical Image Segmentation. </span><span class=SpellE><span
-style='font-family:"Malgun Gothic",sans-serif'>&#54620;&#44397;&#51221;&#48372;&#44284;&#54617;&#54924;</span></span><span
+<p class=MsoListParagraph style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span><span
+style='font-family:"Times New Roman",serif'>Tuan Le <span class=SpellE>Dinh</span>,
+<span class=SpellE>Seong-Geun</span> Kwon, Suk-Hwan Lee, Ki-<span class=SpellE>Ryong</span>
+Kwon. (2021). A Study on Vision Transformer for Medical Image Segmentation. </span><span
+class=SpellE><span style='font-family:"Malgun Gothic",sans-serif'>&#54620;&#44397;&#51221;&#48372;&#44284;&#54617;&#54924;</span></span><span
 style='font-family:"Times New Roman",serif'> </span><span class=SpellE><span
 style='font-family:"Malgun Gothic",sans-serif'>&#54617;&#49696;&#48156;&#54364;&#45436;&#47928;&#51665;</span></span><span
 style='font-family:"Times New Roman",serif'>, (), 833-835.</span></p>
 
-<p class=MsoListParagraph style='margin-top:0mm;margin-right:154.6pt;
-margin-bottom:8.0pt;margin-left:184.3pt'><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+<p class=MsoListParagraph style='margin-left:72.0pt'><span style='font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-top:0mm;margin-right:154.6pt;margin-bottom:
-8.0pt;margin-left:184.3pt'><span style='font-family:"Times New Roman",serif'>&nbsp;</span><o:p></o:p></p>
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span><o:p></o:p></p>
 
 </span></div>
 
