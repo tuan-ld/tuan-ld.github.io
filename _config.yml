@@ -16,26 +16,26 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Tuan Le Dinh                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Msc in Artificial Intelligence   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  This is my academic homepage, posting lectures, courses, publications records
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: https://tuan-ld.github.io
 
 github:
   username: tuan-ld             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: le_dinh_tuan            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,7 +44,7 @@ social:
   email: tuanld.nbm@gmail.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    - https://twitter.com/le_dinh_tuan      # change to your twitter homepage
     - https://github.com/tuan-ld      # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
