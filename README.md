@@ -1,105 +1,51 @@
-<div align="center">
+Tuan Le Dinh
+======
 
-  # Chirpy Jekyll Theme
-
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
-
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)
-  [![Build Status](https://github.com/cotes2020/jekyll-theme-chirpy/workflows/build/badge.svg?branch=master&event=push)](https://github.com/cotes2020/jekyll-theme-chirpy/actions?query=branch%3Amaster+event%3Apush)
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)](https://www.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cotes2020/jekyll-theme-chirpy&amp;utm_campaign=Badge_Grade)
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
-  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
-
-  [**Live Demo →**](https://cotes2020.github.io/chirpy-demo)
-
-  [![Devices Mockup](https://raw.githubusercontent.com/cotes2020/chirpy-images/main/commons/devices-mockup.png)](https://cotes2020.github.io/chirpy-demo)
-
-</div>
-
-## Features
-
-- Localized Layout
-- Dark/Light Theme Mode
-- Pinned Posts
-- Hierarchical Categories
-- Last Modified Date for Posts
-- Table of Contents
-- Auto-generated Related Posts
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagram & Flowchart
-- Disqus/Utterances/Giscus Comments
-- Search
-- Atom Feeds
-- Google Analytics
-- GA Pageviews Reporting
-- SEO & Performance Optimization
+Self-introduction
+---------
+Hello, my name is Tuan Le Dinh (you can call me Tuan), I was born and grown up in Vietnam. I received my bachelor from Vietnam National University (College of Engineering) in Computer Science. After graduated, I moved to Japan and worked as a software engineer. In Japan, I worked as a programmer for two years, then I decided to pursue my master degree in Artificial Intelligence at Pukyong National University.
 
 
-## Quick Start
+Research interest
+---------
+During my master's course at Pukyong National University, I found my curiosity about Deep Learning applied to Medical and Biomedical Image Analysis. My research job is to train DL models and modify the architecture of these neural nets so that they can work best for medical and biomedical images. Images analysis tasks included classification, semantic segmentation, instance segmentation, etc.
 
-Before starting, please follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`. In addition, [Git](https://git-scm.com/) is also required to be installed.
+Favorite Courses
+---------
 
-### Step 1. Creating a New Site
+I enjoyed watching and taking notes for online courses and I highly recommend you guys take a look at it. For me, these courses have helped me build up my background for an AI research career so much.
 
-Create a new repository from the [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
+**MOOCs**
+- [Machine Learning course](http://www.cs.cmu.edu/~tom/10701_sp11/) (Prof Tom Mitchell, Carnegie Mellon University, includes video lectures, online slides, 2011)
+- [Matrix methods in Data Analysis, Signal Processing, and Machine Learning](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) (Prof. Gilbert Strang MIT)
+- [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) (Prof. Andrew Ng)
 
-### Step 2. Installing Dependencies
+**Lecture notes and Homeworks**
+- My notes and homework solutions for Machine Learning courses
+- My notes and homework solutions for Matrix methods in Data Analysis, Signal Processing, and Machine Learning Neural Networks and Deep Learning
+- My notes and homework solutions for Neural Networks and Deep Learning course
 
-Before running for the first time, go to the root directory of your site, and install dependencies as follows:
 
-```console
-$ bundle
-```
+Favorite Books
+---------
+Besides reading textbooks about math and science, I also enjoy reading books from other fields. Some of the most influenced authors which inspired me a lot include:
 
-### Step 3. Running Local Server
+- [Jared Diamond](https://en.wikipedia.org/wiki/Jared_Diamond) (Guns, Germs, and Steel, The World Until Yesterday, Why sex is fun, etc)
 
-Run the following command in the root directory of the site:
+- [Walter Isaacson](https://en.wikipedia.org/wiki/Walter_Isaacson) (The Innovators, Einstein: His Life and Universe, Steve Jobs, etc)
 
-```console
-$ bundle exec jekyll s
-```
+- [Malcolm Gladwell](https://en.wikipedia.org/wiki/Malcolm_Gladwell) (Outliers: The Story of Success, The Tipping Point, Blink, etc)
 
-Or run with Docker:
+Publications
+---------
+**Journal**
 
-```console
-$ docker run -it --rm \
-    --volume="$PWD:/srv/jekyll" \
-    -p 4000:4000 jekyll/jekyll \
-    jekyll serve
-```
+- Le Dinh, Tuan, et al. "COVID-19 Chest X-ray Classification and Severity Assessment Using Convolutional and Transformer Neural Networks." Applied Sciences 12.10 (2022): 4861. [**Paper**](https://doi.org/10.3390/app12104861){:target="_blank"}
 
-After a while, navigate to the site at <http://localhost:4000>.
+- Dinh, Tuan Le, et al. " Breast Tumor Cell Nuclei Segmentation in Histopathology Images Using EfficientUnet++ and Multi-Organ Transfer Learning." Journal of Korea Multimedia Society, vol. 24, no. 8, Korea Multimedia Society, Aug. 2021, pp. 1000-1011, doi:10.9717/KMMS.2021.24.8.1000. [**Paper**](https://doi.org/10.9717/kmms.2021.24.8.1000){:target="_blank"}
 
-## Documentation
+**Conference**
 
-For more details on usage, please refer to the tutorial on the [demo website](https://cotes2020.github.io/chirpy-demo/) / [wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki). Note that the tutorial is based on the [latest tag](https://github.com/cotes2020/jekyll-theme-chirpy/tags), and the features of the default branch are usually ahead of the documentation.
+- T. L. Dinh, S. -H. Lee, S. -G. Kwon and K. -R. Kwon, "Cell Nuclei Segmentation in Cryonuseg dataset using Nested Unet with EfficientNet Encoder," 2022 International Conference on Electronics, Information, and Communication (ICEIC), 2022, pp. 1-4, doi: 10.1109/ICEIC54506.2022.9748537. [**Paper**](https://doi.org/10.1109/ICEIC54506.2022.9748537){:target="_blank"}
 
-## Contributing
-
-Welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
-
-## Credits
-
-This theme is mainly built with [Jekyll](https://jekyllrb.com/) ecosystem, [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) and some other wonderful tools (their copyright information can be found in the relevant files). The avatar and favicon design come from [Clipart Max](https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/).
-
-:tada: Thanks to all the volunteers who contributed to this project, their GitHub IDs are on [this list](https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors). Also, I won't forget those guys who submitted the issues or unmerged PR because they reported bugs, shared ideas, or inspired me to write more readable documentation.
-
-Last but not least, thank [JetBrains][jb] for providing the OSS development license.
-
-## Sponsoring
-
-If you like this theme or find it helpful, please consider sponsoring me, because it will encourage and help me better maintain the project, I will be very grateful!
-
-[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/coteschung)
-[![Wechat Pay](https://img.shields.io/badge/-Tip%20Me%20on%20WeChat-brightgreen?logo=wechat&logoColor=white)][cn-donation]
-[![Alipay](https://img.shields.io/badge/-Tip%20Me%20on%20Alipay-blue?logo=alipay&logoColor=white)][cn-donation]
-
-## License
-
-This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
-
-<!-- ReadMe links -->
-
-[jb]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
-[cn-donation]: https://cotes.gitee.io/alipay-wechat-donation/
+- Tuan Le Dinh, Seong-Geun Kwon, Suk-Hwan Lee, Ki-Ryong Kwon. (2021). A Study on Vision Transformer for Medical Image Segmentation. 한국정보과학회 학술발표논문집, (), 833-835.
