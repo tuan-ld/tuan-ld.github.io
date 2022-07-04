@@ -706,7 +706,7 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 99%);
+      color: rgba(252, 252, 252, 0.99);
     }
   }
 
@@ -835,7 +835,7 @@ $sidebar-display: "sidebar-display";
       > i {
         @extend %clickable-transition;
       }
-
+ 
       &:hover > i {
         color: var(--sidebar-active-color);
       }

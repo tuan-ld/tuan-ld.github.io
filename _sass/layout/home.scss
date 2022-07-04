@@ -24,13 +24,13 @@
       background-color: var(--button-bg);
 
       &:hover {
-        background-color: var(--btn-paginator-hover-color);
+        background-color: #eeeeee;
       }
     }
 
     &.active {
       .page-link {
-        background-color: var(--btn-paginator-hover-color);
+        background-color: #eeeeee;
         color: var(--btn-text-color);
       }
     }

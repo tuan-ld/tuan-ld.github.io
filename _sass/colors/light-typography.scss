@@ -26,11 +26,11 @@
   --checkbox-checked-color: #07a8f7;
 
   /* Sidebar */
-  --sidebar-bg: #eeeeee;
+  --sidebar-bg: #080808;
   --sidebar-muted-color: #a2a19f;
-  --sidebar-active-color: #424242;
+  --sidebar-active-color: #807c7c;
   --nav-cursor-color: #757575;
-  --sidebar-btn-bg: white;
+  --sidebar-btn-bg: rgb(78, 77, 77);
 
   /* Topbar */
   --topbar-text-color: rgb(78, 78, 78);
@@ -44,8 +44,8 @@
   /* Home page */
   --post-list-text-color: dimgray;
   --btn-patinator-text-color: #555555;
-  --btn-paginator-hover-color: var(--sidebar-bg);
-  --btn-paginator-border-color: var(--sidebar-bg);
+  --btn-paginator-hover-color: #eeeeee;
+  --btn-paginator-border-color: #eeeeee;
   --btn-text-color: #676666;
   --pin-bg: #f5f5f5;
   --pin-color: #999fa4;
