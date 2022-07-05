@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Beranda
-  courses: Kategori
+  categories: Kategori
   tags: Tagar
   archives: Arsip
   about: Tentang
@@ -73,7 +73,7 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: Disematkan
 
-# courses page
-courses:
+# categories page
+categories:
   category_measure: kategori
   post_measure: Postingan

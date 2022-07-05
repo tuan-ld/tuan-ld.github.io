@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Начало
-  courses: Категории
+  categories: Категории
   tags: Тагове
   archives: Архив
   about: За мен
@@ -73,8 +73,8 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: Прикрепен
 
-# courses page
-courses:
+# categories page
+categories:
   category_measure:
     singular: категория
     plural: категории

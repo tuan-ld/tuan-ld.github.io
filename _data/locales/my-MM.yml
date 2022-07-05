@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: အဓိကစာမျက်နှာ
-  courses: ကဏ္ဍများ
+  categories: ကဏ္ဍများ
   tags: နာမ(တက်ဂ်)များ
   archives: မှတ်တမ်း​တိုက်
   about: အကြောင်းအရာ
@@ -73,7 +73,7 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: ချိတ်ထားသည်။
 
-# courses page
-courses:
+# categories page
+categories:
   category_measure: ကဏ္ဍများ
   post_measure: ပို့စ်များ

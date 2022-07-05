@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: 홈
-  courses: 카테고리
+  categories: 카테고리
   tags: 태그
   archives: 아카이브
   about: 정보
@@ -73,7 +73,7 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: 핀
 
-# courses page
-courses:
+# categories page
+categories:
   category_measure: 카테고리
   post_measure: 포스트

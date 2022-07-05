@@ -2,7 +2,7 @@
 title: Writing a New Post
 author: cotes
 date: 2019-08-08 14:10:00 +0800
-courses: [Blogging, Tutorial]
+categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
 ---
@@ -21,7 +21,7 @@ Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-m
 ---
 title: TITLE
 date: YYYY-MM-DD HH:MM:SS +/-TTTT
-courses: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
 ---
 ```
@@ -33,13 +33,13 @@ tags: [TAG]     # TAG names should always be lowercase
 
 In order to accurately record the release date of a post, you should not only set up the `timezone` of `_config.yml`{: .filepath} but also provide the post's timezone in variable `date` of its Front Matter block. Format: `+/-TTTT`, e.g. `+0800`.
 
-### courses and Tags
+### Categories and Tags
 
-The `courses` of each post are designed to contain up to two elements, and the number of elements in `tags` can be zero to infinity. For instance:
+The `categories` of each post are designed to contain up to two elements, and the number of elements in `tags` can be zero to infinity. For instance:
 
 ```yaml
 ---
-courses: [Animal, Insect]
+categories: [Animal, Insect]
 tags: [bee]
 ---
 ```

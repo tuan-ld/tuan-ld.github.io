@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Inicio
-  courses: Categorías
+  categories: Categorías
   tags: Etiquetas
   archives: Archivo
   about: Acerca de
@@ -73,7 +73,7 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: Fijado
 
-# courses page
-courses:
+# categories page
+categories:
   category_measure: categorias
   post_measure: entradas

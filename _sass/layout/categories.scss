@@ -1,12 +1,12 @@
 /*
-  Style for Tab courses
+  Style for Tab Categories
 */
 
 %category-icon-color {
   color: gray;
 }
 
-.courses {
+.categories {
   margin-bottom: 2rem;
 
   .card-header {
@@ -31,9 +31,7 @@
 
   }
 
-}
-
-// .courses
+} // .categories
 
 .category-trigger {
   width: 1.7rem;
@@ -44,7 +42,7 @@
 
   &:hover {
     i {
-      color: var(--courses-icon-hover-color);
+      color: var(--categories-icon-hover-color);
     }
   }
 
@@ -56,18 +54,14 @@
   }
 }
 
-@media (hover: hover) {
-
-  // only works on desktop
+@media (hover: hover) { // only works on desktop
   .category-trigger:hover {
-    background-color: var(--courses-hover-bg);
+    background-color: var(--categories-hover-bg);
   }
 }
 
 .rotate {
-  -ms-transform: rotate(-90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(-90deg);
-  /* Safari 3-8 */
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari 3-8 */
   transform: rotate(-90deg);
 }
