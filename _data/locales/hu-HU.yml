@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Kezdőlap
-  categories: Kategóriák
+  courses: Kategóriák
   tags: Címkék
   archives: Archívum
   about: Rólam
@@ -75,7 +75,7 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: Kitűzve
 
-# categories page
-categories:
+# courses page
+courses:
   category_measure: kategória
   post_measure: bejegyzés

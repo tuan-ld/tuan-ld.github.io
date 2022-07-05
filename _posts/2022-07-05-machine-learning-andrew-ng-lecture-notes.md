@@ -2,7 +2,7 @@
 title: Machine Learning by Andrew Ng (lecture notes)
 author: cotes
 date: 2022-07-05 11:33:00 +0800
-categories: [Machine Learning by Andew Ng, lecture-notes]
+courses: [Machine Learning by Andew Ng, lecture-notes]
 tags: [machine-learning]
 math: true
 mermaid: true

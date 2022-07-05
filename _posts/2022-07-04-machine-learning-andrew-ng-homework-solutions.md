@@ -2,7 +2,7 @@
 title: Machine Learning by Andrew Ng (homework-solutions)
 author: Tuan Le Dinh
 date: 2022-07-04 11:33:00 +0800
-categories: [Machine Learning by Andew Ng, homework-solutions]
+courses: [Machine Learning by Andew Ng, homework-solutions]
 tags: [machine-learning]
 math: true
 mermaid: true

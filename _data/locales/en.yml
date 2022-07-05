@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Categories
+  courses: courses
   tags: Tags
   archives: Archives
   about: About
@@ -73,11 +73,11 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: Pinned
 
-# categories page
-categories:
+# courses page
+courses:
   category_measure:
     singular: category
-    plural: categories
+    plural: courses
   post_measure:
     singular: post
     plural: posts

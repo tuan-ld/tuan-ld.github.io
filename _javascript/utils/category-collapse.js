@@ -1,8 +1,8 @@
 /*
- * Tab 'Categories' expand/close effect.
+ * Tab 'courses' expand/close effect.
  */
 
-$(function() {
+$(function () {
   const childPrefix = "l_";
   const parentPrefix = "h_";
   const collapse = $(".collapse");
@@ -18,7 +18,7 @@ $(function() {
   });
 
   /* expand the top category */
-  collapse.on("show.bs.collapse", function() {
+  collapse.on("show.bs.collapse", function () {
     const parentId = parentPrefix + $(this).attr("id").substring(childPrefix.length);
     if (parentId) {
       $(`#${parentId} .far.fa-folder`).attr("class", "far fa-folder-open fa-fw");

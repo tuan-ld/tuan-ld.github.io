@@ -1,12 +1,12 @@
 /*
-  Style for Tab Categories
+  Style for Tab courses
 */
 
 %category-icon-color {
   color: gray;
 }
 
-.categories {
+.courses {
   margin-bottom: 2rem;
 
   .card-header {
@@ -33,7 +33,7 @@
 
 }
 
-// .categories
+// .courses
 
 .category-trigger {
   width: 1.7rem;
@@ -44,7 +44,7 @@
 
   &:hover {
     i {
-      color: var(--categories-icon-hover-color);
+      color: var(--courses-icon-hover-color);
     }
   }
 
@@ -60,7 +60,7 @@
 
   // only works on desktop
   .category-trigger:hover {
-    background-color: var(--categories-hover-bg);
+    background-color: var(--courses-hover-bg);
   }
 }
 
