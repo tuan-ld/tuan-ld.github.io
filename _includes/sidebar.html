@@ -45,8 +45,13 @@
         relative_url }}" class="nav-link" target="{% if tab.url == '/resume/' %}{{" _blank"}}{% endif %}">
         <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
         {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-
-        <span>{{ site.data.locales[lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+        <span>
+          {% if site.data.locales[lang].tabs.[tab_name] == 'Categories' %} COURSES
+          {% elsif site.data.locales[lang].tabs.[tab_name] == 'Tags' %} PUBLICATIONS
+          {% elsif site.data.locales[lang].tabs.[tab_name] == 'Archives' %} ARCHIVES
+          {% else %}
+          {{site.data.locales[lang].tabs.[tab_name]|default: tab.title | upcase }}
+          {% endif%} </span>
       </a>
     </li> <!-- .nav-item -->
     {% endfor %}
