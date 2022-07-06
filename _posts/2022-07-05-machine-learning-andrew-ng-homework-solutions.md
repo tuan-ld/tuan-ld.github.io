@@ -1,6 +1,6 @@
 ---
 title: Machine Learning by Andrew Ng (lecture notes)
-author: cotes
+author: Tuan Le Dinh
 date: 2022-07-05 11:33:00 +0800
 categories: [Machine Learning by Andew Ng, lecture-notes]
 tags: [machine-learning]
