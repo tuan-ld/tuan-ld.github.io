@@ -2,95 +2,79 @@
 layout: page
 # The Home page layout
 ---
+<h1 class="dynamic-title">
+  About me
+</h1>
 
-{% include lang.html %}
-
-{% assign pinned = site.posts | where: "pin", "true" %}
-{% assign default = site.posts | where_exp: "item", "item.pin != true and item.hidden != true" %}
-
-{% assign posts = "" | split: "" %}
-
-<!-- Get pinned posts -->
-
-{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
-{% assign pinned_num = pinned.size | minus: offset %}
-
-{% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign posts = posts | push: pinned[i] %}
-  {% endfor %}
-{% else %}
-  {% assign pinned_num = 0 %}
-{% endif %}
-
-<!-- Get default posts -->
-
-{% assign default_beg = offset | minus: pinned.size %}
-
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
-{% endif %}
-
-{% assign default_num = paginator.posts | size | minus: pinned_num  %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
-  {% endfor %}
-{% endif %}
-
-<div id="post-list">
-
-{% for post in posts %}
-
-  <div class="post-preview">
-    <h1>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        {% include no-linenos.html content=post.content %}
-        {{ content | markdownify | strip_html | truncate: 200 | escape }}
-      </p>
+<div class="post-content">
+  <div class="mermaid">
+    <img src="https://raw.githubusercontent.com/tuan-ld/tuan-ld.github.io/main/assets/img/avatar/circle-profile-pic.png"
+      width="200" height="200" />
+    <h1 id="tuan-le-dinh-resume-">Tuan Le Dinh </h1>
+    <div class="site-subtitle font-italic">
+      <h6> MSc in Artificial Intelligence - Pukyong National University </h6>
+      <h6>Busan, Nam-gu, Yongso-ro, 45 • 010-5534-6663 • tuanld.nbm@gmail.com
+      </h6>
+      <a href="https://tuan-ld.github.io/">https://tuan-ld.github.io/</a>
     </div>
+  </div>
+</div>
 
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
+<h2 id="self-introduction"><span class="mr-2">Self-introduction</span><a href="#self-introduction"
+    class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Hello, my name is Tuan Le Dinh (you can call me Tuan), I was born and grown up in Vietnam. I received my bachelor
+  from Vietnam National University (College of Engineering) in Computer Science. After graduated, I moved to Japan and
+  worked as a software engineer. In Japan, I worked as a programmer for two years, then I decided to pursue my master
+  degree in Artificial Intelligence at Pukyong National University.</p>
 
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        {% include datetime.html date=post.date %}
+<h2 id="research-interest"><span class="mr-2">Research interest</span><a href="#research-interest"
+    class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>During my master’s course at Pukyong National University, I found my curiosity about Deep Learning applied to Medical
+  and Biomedical Image Analysis. My research job is to train DL models and modify the architecture of these neural nets
+  so that they can work best for medical and biomedical images. Images analysis tasks included classification, semantic
+  segmentation, instance segmentation, etc.</p>
 
-        <!-- categories -->
-        {% if post.categories.size > 0 %}
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          {% for category in post.categories %}
-            {{ category }}
-            {%- unless forloop.last -%},{%- endunless -%}
-          {% endfor %}
-          </span>
-        {% endif %}
+<h2 id="favorite-courses"><span class="mr-2">Favorite Courses</span><a href="#favorite-courses"
+    class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-      </div>
+<p>I enjoyed watching and taking notes for online courses and I highly recommend you guys take a look at it. For me,
+  these courses have helped me build up my background for an AI research career so much.</p>
 
-      {% if post.pin %}
-      <div class="pin">
-        <i class="fas fa-thumbtack fa-fw"></i>
-        <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
-      </div>
-      {% endif %}
+<p><strong>MOOCs</strong></p>
+<ul>
+  <li><a href="http://www.cs.cmu.edu/~tom/10701_sp11/">Machine Learning course</a> (Prof Tom Mitchell, Carnegie Mellon
+    University, includes video lectures, online slides, 2011)</li>
+  <li><a
+      href="https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/">Matrix
+      methods in Data Analysis, Signal Processing, and Machine Learning</a> (Prof. Gilbert Strang MIT)</li>
+  <li><a href="https://www.coursera.org/learn/neural-networks-deep-learning">Neural Networks and Deep Learning</a>
+    (Prof. Andrew Ng)</li>
+</ul>
 
-    </div> <!-- .post-meta -->
+<p><strong>Lecture notes and Homeworks</strong></p>
+<ul>
+  <li>My notes and homework solutions for Machine Learning courses</li>
+  <li>My notes and homework solutions for Matrix methods in Data Analysis, Signal Processing, and Machine Learning
+    Neural Networks and Deep Learning</li>
+  <li>My notes and homework solutions for Neural Networks and Deep Learning course</li>
+</ul>
 
-  </div> <!-- .post-review -->
+<h2 id="favorite-books"><span class="mr-2">Favorite Books</span><a href="#favorite-books" class="anchor text-muted"><i
+      class="fas fa-hashtag"></i></a></h2>
+<p>Besides reading textbooks about math and science, I also enjoy reading books from other fields. Some of the most
+  influenced authors which inspired me a lot include:</p>
 
-{% endfor %}
-
-</div> <!-- #post-list -->
-
-{% if paginator.total_pages > 0 %}
-  {% include post-paginator.html %}
-{% endif %}
+<ul>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Jared_Diamond">Jared Diamond</a> (Guns, Germs, and Steel, The World Until
+      Yesterday, Why sex is fun, etc)</p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Walter_Isaacson">Walter Isaacson</a> (The Innovators, Einstein: His Life
+      and Universe, Steve Jobs, etc)</p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Malcolm_Gladwell">Malcolm Gladwell</a> (Outliers: The Story of Success,
+      The Tipping Point, Blink, etc)</p>
+  </li>
+</ul>
