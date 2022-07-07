@@ -39,6 +39,7 @@
     </li>
     <!-- the real tabs -->
     {% for tab in site.tabs %}
+    {% if tab.title == 'Courses' or tab.title == 'Publications' or tab.title == 'Blog' or tab.title == 'Resume'%}
     <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
       <a href="{% if tab.url == '/resume/' %}{{ "
         https://drive.google.com/file/d/1K1wG0tq3P13-X6JHorPaY4MlLCPlgH04/view?usp=sharing" }} {% endif %} {{ tab.url |
@@ -54,6 +55,7 @@
           {% endif%} </span>
       </a>
     </li> <!-- .nav-item -->
+    {%endif%}
     {% endfor %}
 
   </ul> <!-- ul.nav.flex-column -->
