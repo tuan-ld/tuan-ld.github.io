@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Домашняя страница
-  categories: Категории
+  courses: Категории
   tags: Теги
   archives: Архив
   about: О сайте
@@ -73,7 +73,7 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: Закреплено
 
-# categories page
-categories:
+# courses page
+courses:
   category_measure: категории
   post_measure: публикации

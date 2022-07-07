@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Trang chủ
-  categories: Các danh mục
+  courses: Các danh mục
   tags: Các thẻ
   archives: Lưu trữ
   about: Giới thiệu
@@ -71,7 +71,7 @@ post:
   # pinned prompt of posts list on homepage
   pin_prompt: Bài ghim
 
-# categories page
-categories:
+# courses page
+courses:
   category_measure: danh mục
   post_measure: bài viết

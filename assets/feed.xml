@@ -39,8 +39,8 @@ permalink: /feed.xml
       <name>{{ post.author | default: site.social.name }}</name>
     </author>
 
-  {% if post.categories %}
-    {% for category in post.categories %}
+  {% if post.courses %}
+    {% for category in post.courses %}
     <category term="{{ category }}" />
     {% endfor %}
   {% endif %}
