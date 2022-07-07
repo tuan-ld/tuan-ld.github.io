@@ -1,57 +1,13 @@
 ---
-layout: page
-<<<<<<< HEAD
-# The Archives of posts.
-=======
-# The Home page layout
->>>>>>> 7c6cb37c4effafc721fab0dfe8c2f597c1f3f3f9
+layout: blog
+title: Blog
+icon: fas fa-blog
+order: 4
 ---
+
 
 {% include lang.html %}
 
-<<<<<<< HEAD
-{% if site.prefer_datetime_locale == 'en' or lang == 'en' %}
-{% assign df_strftime_m = '%b' %}
-{% assign df_dayjs_m = 'MMM' %}
-{% else %}
-{% assign df_strftime_m = '/ %m' %}
-{% assign df_dayjs_m = '/ MM' %}
-{% endif %}
-
-<div id="archives" class="pl-xl-2">
-    {% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture pre_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% if forloop.first %}
-    {% assign last_day = "" %}
-    {% assign last_month = "" %}
-    <span class="lead">{{this_year}}</span>
-    <ul class="list-unstyled">
-        {% endif %}
-        <li>
-            <div>
-                {% assign ts = post.date | date: '%s' %}
-                <span class="date day" data-ts="{{ ts }}" data-df="DD">
-                    {{ post.date | date: "%d" }}
-                </span>
-                <span class="date month small text-muted" data-ts="{{ ts }}" data-df="{{ df_dayjs_m }}">
-                    {{ post.date | date: df_strftime_m }}
-                </span>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </div>
-        </li>
-        {% if forloop.last %}
-    </ul>
-    {% elsif this_year != pre_year %}
-    </ul>
-    <span class="lead">{{pre_year}}</span>
-    <ul class="list-unstyled">
-        {% assign last_day = "" %}
-        {% assign last_month = "" %}
-        {% endif %}
-        {% endfor %}
-</div>
-=======
 {% assign pinned = site.posts | where: "pin", "true" %}
 {% assign default = site.posts | where_exp: "item", "item.pin != true and item.hidden != true" %}
 
@@ -135,4 +91,3 @@ layout: page
     {% if paginator.total_pages > 0 %}
     {% include post-paginator.html %}
     {% endif %}
->>>>>>> 7c6cb37c4effafc721fab0dfe8c2f597c1f3f3f9

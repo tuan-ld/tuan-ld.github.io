@@ -1,5 +1,6 @@
 ---
 layout: categories
-title: Categories
+title: Courses
 icon: fas fa-stream
+order: 2
 ---
