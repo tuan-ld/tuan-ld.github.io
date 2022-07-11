@@ -1,9 +1,9 @@
 ---
-title: CS230 Deep Learning  (homework-solutions)
+title: CS230 Deep Learning (homework-solutions)
 author: Tuan Le Dinh
 date: 2022-01-14 11:33:00 +0800
-categories: [CS230 Deep Learning, lecture-notes]
-tags: [machine-learning]
+categories: [CS230 Deep Learning, homework-solutions]
+tags: [deep-learning]
 math: true
 mermaid: true
 image:
