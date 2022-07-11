@@ -1,16 +1,16 @@
 ---
-title: CS229 Machine Learning (lecture notes)
+title: CS230 Deep Learning (lecture notes)
 author: Tuan Le Dinh
-date: 2021-07-05 11:33:00 +0800
-categories: [CS229 Machine Learning, lecture-notes]
+date: 2021-01-25 11:33:00 +0800
+categories: [CS230 Deep Learning, lecture-notes]
 tags: [machine-learning]
 math: true
 mermaid: true
 image:
-  path: /assets/img/courses/machine-learning-andrew-ng/machine-learning-andrew-ng.png
+  path: /assets/img/courses/deep-learning-andrew-ng/deep-learning.jpeg
   width: 600
   height: 400
-  alt: CS229 Machine Learning
+  alt: CS230 Deep Learning
 ---
 
 # CS230 Deep Learning

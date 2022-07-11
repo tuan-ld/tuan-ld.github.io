@@ -1,35 +1,31 @@
 ---
-title: CS229 Machine Learning (homework-solutions)
+title: CS230 Deep Learning  (homework-solutions)
 author: Tuan Le Dinh
-date: 2021-07-04 11:33:00 +0800
-categories: [CS229 Machine Learning, homework-solutions]
+date: 2022-01-14 11:33:00 +0800
+categories: [CS230 Deep Learning, lecture-notes]
 tags: [machine-learning]
 math: true
 mermaid: true
 image:
-  path: /assets/img/courses/machine-learning-andrew-ng/machine-learning-andrew-ng.png
+  path: /assets/img/courses/deep-learning-andrew-ng/deep-learning.jpeg
   width: 600
   height: 400
-  alt: CS229 Machine Learning
+  alt: CS230 Deep Learning
 ---
-# CS229 Machine Learning
+---
+# CS230 Deep Learning
 
-## Week 1: Problem Set 0
-- without solutions [[pdf]](https://cs229.stanford.edu/materials/ps0.pdf){:target="_blank"}
-- with solution
+## Course 1: Neural Networks and Deep Learning
 
-## Week 2: Problem Set 1 
-- without solutions [[pdf]](https://github.com/tuan-ld/cs229-machine-learning-standford/blob/main/homework/problem-set-1/pdf/problem-set-1.pdf){:target="_blank"} [[code]](https://github.com/tuan-ld/cs229-machine-learning-standford/tree/main/homework/problem-set-1/code){:target="_blank"}
-- with solution
+### Lecture 1
+- Class introduction
+- Examples of deep learning projects
+- Course details
 
-## Week 4: Problem Set 2
-- without solutions [[pdf]](https://github.com/tuan-ld/cs229-machine-learning-standford/blob/main/homework/problem-set-2/pdf/problem-set-2.pdf){:target="_blank"}  [[code]](https://github.com/tuan-ld/cs229-machine-learning-standford/tree/main/homework/problem-set-2/code){:target="_blank"}
-- with solution
+### Lecture 2
+- C1M1: Introduction to deep learning
+- C1M2: Neural Network Basics
 
-## Week 8: Problem Set 3
-- without solutions [[pdf]](https://github.com/tuan-ld/cs229-machine-learning-standford/blob/main/homework/problem-set-3/pdf/problem-set-3.pdf){:target="_blank"}  [[code]](https://github.com/tuan-ld/cs229-machine-learning-standford/tree/main/homework/problem-set-3/code){:target="_blank"}
-- with solution
-
-## Week 10: Problem Set 4
-- without solutions [[pdf]](https://github.com/tuan-ld/cs229-machine-learning-standford/blob/main/homework/problem-set-4/pdf/problem-set-4.pdf){:target="_blank"}  [[code]](https://github.com/tuan-ld/cs229-machine-learning-standford/tree/main/homework/problem-set-4/code){:target="_blank"}
-- with solution
+### Lecture 3
+- C1M3: Shallow Neural Network
+- C1M4: Deep Neural Networks

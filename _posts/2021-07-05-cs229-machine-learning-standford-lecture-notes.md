@@ -20,12 +20,12 @@ image:
 ### Lecture 1: Introduction and Basic Concepts
 - Introduction and Basic Concepts
 
-## Week 2
-
 ### Lecture 2: Supervised Learning Setup. Linear Regression
 - Supervised Learning
 - Linear Regression
 - Discriminative Algorithms
+
+## Week 2
 
 ### Lecture 3: Logistic Regression
 - Weighted Least Squares
@@ -47,6 +47,8 @@ image:
 - Laplace Smoothing
 - Support Vector Machines.
 
+## Week 4
+
 ### Lecture 7: Support vector machines
 - Support Vector Machines
 - Kernels.
@@ -55,7 +57,7 @@ image:
 - Bias-Variance tradeoff
 - Regularization and model/feature selection
 
-## Week 4
+## Week 5
 
 ### Lecture 9: Tree Ensembles
 - Decision trees 
@@ -65,13 +67,15 @@ image:
 - Deep learning
 - Backpropagation
 
+## Week 6
+
 ### Lecture 11: Neural Networks: Training
 - Neural Networks: Training
 
-## Week 5
-
 ### Lecture 12: Practical Advice for ML projects
 - Practical Advice for ML projects
+
+## Week 7
 
 ### Lecture 13: Neural Networks: Training
 - K-means
@@ -81,6 +85,8 @@ image:
 ### Lecture 14: Factor Analysis.
 - Factor Analysis
 
+## Week 8
+
 ### Lecture 15: Principal Component Analysis
 - Principal Component Analysis
 - Independent Component Analysis
@@ -88,7 +94,7 @@ image:
 ### Lecture 16: MDPs. Bellman Equations.
 - MDPs. Bellman Equations.
 
-## Week 6
+## Week 9
 
 ### Lecture 17: Value Iteration and Policy Iteration. LQR. LQG.
 - Value Iteration and Policy Iteration
@@ -98,6 +104,8 @@ image:
 ### Lecture 18: Q-Learning. Value function approximation.
 - Q-Learning
 - Value function approximation.
+
+## Week 10
 
 ### Lecture 19: Policy Search. REINFORCE. POMDPs.
 - Policy Search
