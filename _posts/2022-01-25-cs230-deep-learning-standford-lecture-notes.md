@@ -1,7 +1,7 @@
 ---
 title: CS230 Deep Learning (lecture notes)
 author: Tuan Le Dinh
-date: 2021-01-25 11:33:00 +0800
+date: 2022-01-25 11:33:00 +0800
 categories: [CS230 Deep Learning, lecture-notes]
 tags: [machine-learning]
 math: true
