@@ -42,7 +42,7 @@
     {% if tab.title == 'Courses' or tab.title == 'Publications' or tab.title == 'Blog' or tab.title == 'Resume'%}
     <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
       <a href="{% if tab.url == '/resume/' %}{{ "
-        https://drive.google.com/file/d/1cuDKRt_pXhvOu2ixfODU3-OKXMMeixNT/view?usp=sharing" }} {% endif %} {{ tab.url |
+        https://drive.google.com/file/d/1NctUHNAzXs_aaPTA_GdWi6-h02iYzI4_/view?usp=sharing" }} {% endif %} {{ tab.url |
         relative_url }}" class="nav-link" target="{% if tab.url == '/resume/' %}{{" _blank"}}{% endif %}">
         <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
         {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
